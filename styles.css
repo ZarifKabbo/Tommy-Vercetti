@@ -1,0 +1,50 @@
+
+#main{
+  background-color: #eee
+}
+h1{
+  text-align: center;
+}
+main>p{
+  text-align: center;
+  font-style: italic;
+  margin:-4px;
+}
+#image{
+  display:block;
+  max-width:100%;
+  width: 600px;
+  margin: auto;
+}
+figcaption{
+  margin: auto;
+}
+#img-div{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 100%;
+}
+#bold{
+  font-weight: bold;
+}
+section{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+section>p{
+  font-style:italic ;
+}
+section>ul{
+  width: 500px;
+}
+tribute-info{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
